@@ -33,6 +33,19 @@ a{color:inherit}
   display:flex; align-items:center; justify-content:space-between; gap:20px;
   padding:18px 24px;
 }
+.brand-block{
+  display:flex;
+  align-items:center;
+  gap:14px;
+}
+.site-logo{
+  width:56px;
+  height:56px;
+  object-fit:contain;
+  border-radius:14px;
+  flex-shrink:0;
+  background:transparent;
+}
 .brand{font-size:1.2rem;font-weight:700}
 .tagline{font-size:.95rem;color:var(--light);margin-top:2px}
 .hero{
@@ -134,4 +147,6 @@ p{margin:0 0 16px;color:var(--muted)}
   .hero{padding:56px 0}
   .section{padding:64px 0}
   .card,.panel{padding:22px}
+  .brand-block{align-items:flex-start}
+  .site-logo{width:48px;height:48px}
 }

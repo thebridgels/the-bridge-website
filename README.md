@@ -5,5 +5,6 @@ Simple landing page for The Bridge Learning System.
 ## Files
 - `index.html`
 - `styles.css`
+- `TBLSLogo.png`
 
-This version is intentionally simple so it can be uploaded to GitHub and deployed on Vercel without needing any coding tools installed.
+This version includes the logo in the header.
